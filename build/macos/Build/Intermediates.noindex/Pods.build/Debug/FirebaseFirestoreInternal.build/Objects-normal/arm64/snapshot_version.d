@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/model/snapshot_version.cc \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/model/snapshot_version.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/include/firebase/firestore/timestamp.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/comparison.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/config.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/options.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/macros.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/port.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/hashing.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/objc/objc_type_traits.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestoreInternal/Firestore/core/src/util/type_traits.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/optional.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/utility/utility.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/inline_variable.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/invoke.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/bad_optional_access.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/internal/optional.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/memory/memory.h

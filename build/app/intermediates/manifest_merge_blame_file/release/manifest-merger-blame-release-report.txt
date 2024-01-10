@@ -1,0 +1,427 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.langlearn"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:2:1-75
+11-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:2:18-72
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:3:1-77
+12-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:3:18-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:4:1-62
+13-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:4:18-60
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:5:1-73
+14-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:5:18-70
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:6:1-80
+15-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:6:18-78
+16    <!-- Provide required visibility configuration for API level 30 and above -->
+17    <queries>
+17-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:8:1-23:11
+18
+19        <!-- If your app checks for SMS support -->
+20        <intent>
+20-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:10:3-13:12
+21            <action android:name="android.intent.action.VIEW" />
+21-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:5-57
+21-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:13-54
+22
+23            <data android:scheme="sms" />
+23-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:5-34
+23-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:11-31
+24        </intent>
+25        <!-- If your app checks for call support -->
+26        <intent>
+26-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:15:3-18:12
+27            <action android:name="android.intent.action.VIEW" />
+27-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:5-57
+27-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:13-54
+28
+29            <data android:scheme="tel" />
+29-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:5-34
+29-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:11-31
+30        </intent>
+31        <!-- If your application checks for inAppBrowserView launch mode support -->
+32        <intent>
+32-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:20:3-22:12
+33            <action android:name="android.support.customtabs.action.CustomTabsService" />
+33-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:21:5-82
+33-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:21:13-79
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:26:5-79
+37-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:26:22-76
+38
+39    <permission
+39-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+40        android:name="com.example.langlearn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.example.langlearn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+44
+45    <application
+46        android:name="io.flutter.app.FlutterMultiDexApplication"
+46-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:26:9-42
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.10.1] /Users/harish/.gradle/caches/transforms-3/d2bdb852b4afb82627ab30e2565a0334/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+48        android:icon="@mipmap/ic_launcher"
+48-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:27:9-43
+49        android:label="langlearn" >
+49-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:25:9-34
+50        <activity
+50-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:28:9-48:20
+51            android:name="com.example.langlearn.MainActivity"
+51-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:29:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:33:13-163
+53            android:exported="true"
+53-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:30:13-36
+54            android:hardwareAccelerated="true"
+54-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:34:13-47
+55            android:launchMode="singleTop"
+55-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:31:13-43
+56            android:theme="@style/LaunchTheme"
+56-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:32:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:35:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:40:13-43:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:41:15-70
+67                android:resource="@style/NormalTheme" />
+67-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:42:15-52
+68
+69            <intent-filter>
+69-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:44:13-47:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:45:17-68
+70-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:45:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:46:17-76
+72-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:46:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:51:9-53:33
+80            android:name="flutterEmbedding"
+80-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:52:13-44
+81            android:value="2" />
+81-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:53:13-30
+82
+83        <service
+83-->[:firebase_auth] /Users/harish/Flutter_App/langlearn/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_auth] /Users/harish/Flutter_App/langlearn/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:68:13-37
+87            <meta-data
+87-->[:firebase_auth] /Users/harish/Flutter_App/langlearn/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+88-->[:firebase_auth] /Users/harish/Flutter_App/langlearn/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_auth] /Users/harish/Flutter_App/langlearn/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[:firebase_storage] /Users/harish/Flutter_App/langlearn/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+91-->[:firebase_storage] /Users/harish/Flutter_App/langlearn/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_storage] /Users/harish/Flutter_App/langlearn/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+93            <meta-data
+93-->[:cloud_firestore] /Users/harish/Flutter_App/langlearn/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+94-->[:cloud_firestore] /Users/harish/Flutter_App/langlearn/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:cloud_firestore] /Users/harish/Flutter_App/langlearn/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[:firebase_core] /Users/harish/Flutter_App/langlearn/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+97-->[:firebase_core] /Users/harish/Flutter_App/langlearn/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_core] /Users/harish/Flutter_App/langlearn/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:69:13-71:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:70:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:71:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
+103                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+103-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:18:17-122
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:19:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:20:13-22:85
+106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+106-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:21:17-111
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-firestore:24.9.1] /Users/harish/.gradle/caches/transforms-3/910a81ef385205073c71d48faa4eb2ef/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:22:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+109                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+109-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+112                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+112-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-storage:20.3.0] /Users/harish/.gradle/caches/transforms-3/6d4b156d21b165f76b84f5fbb8c7ea7d/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+115                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+115-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+118                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+118-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/harish/.gradle/caches/transforms-3/15f1a64976e9d465e84ea0ae1dab737d/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harish/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+121                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+121-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harish/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/harish/.gradle/caches/transforms-3/5cf447b53140afab14b56a97eba55473/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+124                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+124-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+126        </service>
+127        <service
+127-->[:geolocator_android] /Users/harish/Flutter_App/langlearn/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+128            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+128-->[:geolocator_android] /Users/harish/Flutter_App/langlearn/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+129            android:enabled="true"
+129-->[:geolocator_android] /Users/harish/Flutter_App/langlearn/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+130            android:exported="false"
+130-->[:geolocator_android] /Users/harish/Flutter_App/langlearn/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+131            android:foregroundServiceType="location" />
+131-->[:geolocator_android] /Users/harish/Flutter_App/langlearn/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+132
+133        <provider
+133-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+134            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+134-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+135            android:authorities="com.example.langlearn.flutter.image_provider"
+135-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+136            android:exported="false"
+136-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+137            android:grantUriPermissions="true" >
+137-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+138            <meta-data
+138-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+139                android:name="android.support.FILE_PROVIDER_PATHS"
+139-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+140                android:resource="@xml/flutter_image_picker_file_paths" />
+140-->[:image_picker_android] /Users/harish/Flutter_App/langlearn/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+141        </provider>
+142
+143        <activity
+143-->[:url_launcher_android] /Users/harish/Flutter_App/langlearn/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+144            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+144-->[:url_launcher_android] /Users/harish/Flutter_App/langlearn/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+145            android:exported="false"
+145-->[:url_launcher_android] /Users/harish/Flutter_App/langlearn/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+146            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+146-->[:url_launcher_android] /Users/harish/Flutter_App/langlearn/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+147        <activity
+147-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:29:9-46:20
+148            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+148-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:30:13-80
+149            android:excludeFromRecents="true"
+149-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:31:13-46
+150            android:exported="true"
+150-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:32:13-36
+151            android:launchMode="singleTask"
+151-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:33:13-44
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+152-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:34:13-72
+153            <intent-filter>
+153-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:35:13-45:29
+154                <action android:name="android.intent.action.VIEW" />
+154-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:5-57
+154-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:13-54
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
+156-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+157                <category android:name="android.intent.category.BROWSABLE" />
+157-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
+157-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+158
+159                <data
+159-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:5-34
+160                    android:host="firebase.auth"
+161                    android:path="/"
+162                    android:scheme="genericidp" />
+162-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:11-31
+163            </intent-filter>
+164        </activity>
+165        <activity
+165-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:47:9-64:20
+166            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+166-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:48:13-79
+167            android:excludeFromRecents="true"
+167-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:49:13-46
+168            android:exported="true"
+168-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:50:13-36
+169            android:launchMode="singleTask"
+169-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:51:13-44
+170            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+170-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:52:13-72
+171            <intent-filter>
+171-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:53:13-63:29
+172                <action android:name="android.intent.action.VIEW" />
+172-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:5-57
+172-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:11:13-54
+173
+174                <category android:name="android.intent.category.DEFAULT" />
+174-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
+174-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+175                <category android:name="android.intent.category.BROWSABLE" />
+175-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
+175-->[com.google.firebase:firebase-auth:22.2.0] /Users/harish/.gradle/caches/transforms-3/93b42c6b17a8158a3b6c894e8f6ca1eb/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+176
+177                <data
+177-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:5-34
+178                    android:host="firebase.auth"
+179                    android:path="/"
+180                    android:scheme="recaptcha" />
+180-->/Users/harish/Flutter_App/langlearn/android/app/src/main/AndroidManifest.xml:12:11-31
+181            </intent-filter>
+182        </activity>
+183
+184        <provider
+184-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+185            android:name="com.google.firebase.provider.FirebaseInitProvider"
+185-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+186            android:authorities="com.example.langlearn.firebaseinitprovider"
+186-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+187            android:directBootAware="true"
+187-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+188            android:exported="false"
+188-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+189            android:initOrder="100" />
+189-->[com.google.firebase:firebase-common:20.4.2] /Users/harish/.gradle/caches/transforms-3/b29de336eedfa9390b65176ca920839a/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+190
+191        <activity
+191-->[com.google.android.gms:play-services-base:18.1.0] /Users/harish/.gradle/caches/transforms-3/1cf043d35c0b2b1d0a59f2d4fb136b65/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+192            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+192-->[com.google.android.gms:play-services-base:18.1.0] /Users/harish/.gradle/caches/transforms-3/1cf043d35c0b2b1d0a59f2d4fb136b65/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-base:18.1.0] /Users/harish/.gradle/caches/transforms-3/1cf043d35c0b2b1d0a59f2d4fb136b65/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-base:18.1.0] /Users/harish/.gradle/caches/transforms-3/1cf043d35c0b2b1d0a59f2d4fb136b65/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+195
+196        <meta-data
+196-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harish/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+197            android:name="com.google.android.gms.version"
+197-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harish/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+198            android:value="@integer/google_play_services_version" />
+198-->[com.google.android.gms:play-services-basement:18.1.0] /Users/harish/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+199
+200        <uses-library
+200-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+201            android:name="androidx.window.extensions"
+201-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+202            android:required="false" />
+202-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+203        <uses-library
+203-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+204            android:name="androidx.window.sidecar"
+204-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+205            android:required="false" />
+205-->[androidx.window:window:1.0.0-beta04] /Users/harish/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+206
+207        <provider
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+208            android:name="androidx.startup.InitializationProvider"
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+209            android:authorities="com.example.langlearn.androidx-startup"
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+210            android:exported="false" >
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+211            <meta-data
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+212                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+213                android:value="androidx.startup" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+214        </provider>
+215
+216        <receiver
+216-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+217            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+217-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+218            android:directBootAware="false"
+218-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+219            android:enabled="true"
+219-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+220            android:exported="true"
+220-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+221            android:permission="android.permission.DUMP" >
+221-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+222            <intent-filter>
+222-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+223                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+223-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+224            </intent-filter>
+225            <intent-filter>
+225-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+226                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+226-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+227            </intent-filter>
+228            <intent-filter>
+228-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+229                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+229-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+230            </intent-filter>
+231            <intent-filter>
+231-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+232                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+232-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/harish/.gradle/caches/transforms-3/8b88e7c122a064b104ffe866a25b971f/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+233            </intent-filter>
+234        </receiver>
+235    </application>
+236
+237</manifest>

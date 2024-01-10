@@ -1,0 +1,18 @@
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/DocumentReference+ReadDecodable.swift":
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+ReadDecodable.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+ReadDecodable.swiftdeps"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+ReadDecodable.dia"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+ReadDecodable.swiftconstvalues"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+ReadDecodable.d"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/DocumentSnapshot+ReadDecodable.swift":
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentSnapshot+ReadDecodable.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentSnapshot+ReadDecodable.swiftdeps"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentSnapshot+ReadDecodable.d"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentSnapshot+ReadDecodable.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentSnapshot+ReadDecodable.dia"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/DocumentReference+WriteEncodable.swift":
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+WriteEncodable.o"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+WriteEncodable.dia"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+WriteEncodable.swiftdeps"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+WriteEncodable.swiftconstvalues"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/DocumentReference+WriteEncodable.d"

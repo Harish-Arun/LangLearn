@@ -1,0 +1,18 @@
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/TimestampDecodingStrategy.swift":
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.swiftdeps"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.dia"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.d"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/TimestampDecodingStrategy.o"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/SwiftHeaderWorkaround.swift":
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/SwiftHeaderWorkaround.d"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/SwiftHeaderWorkaround.swiftconstvalues"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/SwiftHeaderWorkaround.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/SwiftHeaderWorkaround.swiftdeps"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/SwiftHeaderWorkaround.dia"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/Timestamp+Codable.swift":
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Timestamp+Codable.o"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Timestamp+Codable.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Timestamp+Codable.dia"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Timestamp+Codable.d"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/Timestamp+Codable.swiftdeps"

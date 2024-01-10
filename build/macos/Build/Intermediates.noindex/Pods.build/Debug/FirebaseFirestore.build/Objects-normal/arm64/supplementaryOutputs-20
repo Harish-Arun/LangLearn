@@ -1,0 +1,18 @@
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/PropertyWrapper/QueryPredicate.swift":
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/QueryPredicate.swiftdeps"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/QueryPredicate.o"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/QueryPredicate.swiftconstvalues"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/QueryPredicate.d"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/QueryPredicate.dia"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/ServerTimestamp.swift":
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/ServerTimestamp.d"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/ServerTimestamp.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/ServerTimestamp.dia"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/ServerTimestamp.swiftdeps"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/ServerTimestamp.o"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/GeoPoint+Codable.swift":
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/GeoPoint+Codable.swiftconstvalues"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/GeoPoint+Codable.d"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/GeoPoint+Codable.dia"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/GeoPoint+Codable.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/Objects-normal/arm64/GeoPoint+Codable.swiftdeps"

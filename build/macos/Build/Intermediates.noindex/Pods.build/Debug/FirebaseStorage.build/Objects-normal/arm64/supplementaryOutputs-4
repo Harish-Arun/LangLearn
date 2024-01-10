@@ -1,0 +1,18 @@
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageGetMetadataTask.swift":
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageGetMetadataTask.d"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageGetMetadataTask.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageGetMetadataTask.dia"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageGetMetadataTask.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageGetMetadataTask.swiftdeps"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageListTask.swift":
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListTask.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListTask.dia"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListTask.d"
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListTask.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListTask.swiftdeps"
+"/Users/harish/Flutter_App/langlearn/macos/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageListResult.swift":
+  object: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListResult.o"
+  swift-dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListResult.swiftdeps"
+  dependencies: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListResult.d"
+  const-values: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListResult.swiftconstvalues"
+  diagnostics: "/Users/harish/Flutter_App/langlearn/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseStorage.build/Objects-normal/arm64/StorageListResult.dia"

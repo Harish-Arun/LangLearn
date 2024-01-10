@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/src/core/ext/transport/chttp2/transport/hpack_encoder_table.cc \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/include/grpc/impl/codegen/port_platform.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/src/core/ext/transport/chttp2/transport/hpack_encoder_table.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/container/inlined_vector.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/algorithm/algorithm.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/config.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/options.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/macros.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/port.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/container/internal/inlined_vector.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/container/internal/compressed_tuple.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/utility/utility.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/inline_variable.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/base/internal/invoke.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/memory/memory.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/span.h \
+  /Users/harish/Flutter_App/langlearn/build/macos/Build/Products/Debug/abseil/absl.framework/Headers/types/internal/span.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/src/core/ext/transport/chttp2/transport/hpack_constants.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/include/grpc/support/log.h \
+  /Users/harish/Flutter_App/langlearn/macos/Pods/gRPC-Core/include/grpc/impl/codegen/log.h
