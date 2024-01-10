@@ -2,6 +2,10 @@
 
 A flutter project that enables you to learn foreign languages by quizzes.
 
+# langlearn
+
+The application can be installed by downloading the langlearn.apk file and installing it in your android mobile
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
